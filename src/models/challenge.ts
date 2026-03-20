@@ -2,7 +2,7 @@ export interface Challenge {
   id: string;
   title: string;
   description: string;
-  difficulty: string;
+  difficulty: "EASY" | "MEDIUM" | "HARD";
   createdAt: Date;
   updatedAt: Date;
 }
